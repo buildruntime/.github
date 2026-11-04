@@ -1,0 +1,10 @@
+# Blank issues stay enabled because questions are asked in issues:
+# Buildruntime repositories do not use GitHub Discussions. See SUPPORT.md.
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/buildruntime/.github/blob/main/SECURITY.md
+    about: Never post vulnerability details in a public issue. Report them privately, as described in the security policy.
+  - name: Get help or ask a question
+    url: https://github.com/buildruntime/.github/blob/main/SUPPORT.md
+    about: Where to ask questions, and what to include so they can be answered quickly.

@@ -1,0 +1,89 @@
+name: Bug report
+description: Report something that does not work as documented.
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. A clear, reproducible report is the fastest way to a fix.
+
+        **Do not use this form for security vulnerabilities.** Issues are public, so never post vulnerability details here, not even partial ones such as the affected component or a proof of concept. Report vulnerabilities privately, as described in the [security policy](https://github.com/buildruntime/.github/blob/main/SECURITY.md).
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I have searched the open and closed issues, and this bug has not been reported.
+          required: true
+        - label: This report does not describe a security vulnerability.
+          required: true
+        - label: I can reproduce the bug with the latest release or the default branch.
+          required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened
+      description: Describe the bug, including any error message, copied as text.
+      placeholder: Calling `parse()` on an empty file throws `TypeError` instead of returning an empty result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What you expected to happen instead, and where it is documented, if it is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smallest set of steps, code or configuration that shows the bug.
+      placeholder: |
+        1. Create an empty file `input.txt`.
+        2. Run `parse("input.txt")`.
+        3. See the `TypeError` in the output.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release, tag or commit you are using.
+      placeholder: v1.4.2, or commit 1a2b3c4
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Anything about your setup that may be relevant, such as operating system, runtime and version, browser, or deployment platform.
+      placeholder: |
+        OS: Ubuntu 24.04
+        Runtime: Node.js 22.11
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and output
+      description: Relevant log output or a stack trace. It is formatted as code automatically. Remove tokens, passwords and personal data first.
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that helps, such as when the problem started, a workaround you found, or screenshots of a visual problem.
+    validations:
+      required: false
