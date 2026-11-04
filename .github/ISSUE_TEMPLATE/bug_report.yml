@@ -8,7 +8,7 @@ body:
       value: |
         Thank you for reporting a problem. A clear, reproducible report is the fastest way to a fix.
 
-        Do not use this form for security vulnerabilities. Follow the [security policy](https://github.com/buildruntime/.github/blob/main/SECURITY.md) instead.
+        **Do not use this form for security vulnerabilities.** Issues are public, so never post vulnerability details here, not even partial ones such as the affected component or a proof of concept. Report vulnerabilities privately, as described in the [security policy](https://github.com/buildruntime/.github/blob/main/SECURITY.md).
 
   - type: checkboxes
     id: checks
@@ -16,6 +16,8 @@ body:
       label: Before you submit
       options:
         - label: I have searched the open and closed issues, and this bug has not been reported.
+          required: true
+        - label: This report does not describe a security vulnerability.
           required: true
         - label: I can reproduce the bug with the latest release or the default branch.
           required: false

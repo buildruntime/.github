@@ -6,7 +6,7 @@ Everyone taking part is expected to follow the [Code of Conduct](https://github.
 
 ## Before you start
 
-- **Security issues** are never reported in public. Follow the [security policy](https://github.com/buildruntime/.github/blob/main/SECURITY.md) instead.
+- **Security vulnerabilities** are reported privately. Never post their details in an issue, pull request or commit. Follow the [security policy](https://github.com/buildruntime/.github/blob/main/SECURITY.md) instead.
 - **Search first.** Check open and closed issues and pull requests to see whether the problem is already known or the change has already been discussed.
 - **Discuss larger changes before writing them.** For a new feature, a change in behaviour, a new dependency or a refactor that touches many files, open an issue first and describe the problem you want to solve. Agreeing on the approach early saves you from writing code that cannot be merged.
 - **Small fixes can go straight to a pull request.** Typos, broken links, clear bug fixes with a test, and documentation corrections do not need an issue first.
@@ -110,16 +110,17 @@ Every pull request is reviewed by a maintainer before it is merged. Reviewers lo
 
 What you can expect from maintainers:
 
-- A first response to a new pull request within five working days. A first response may be a question or a request for changes rather than a full review.
+- Review as their availability allows. Maintainers work on these projects alongside other work, so the time to a first review varies and is not guaranteed. The first response may be a question or a request for changes rather than a full review.
 - Comments that explain the reasoning behind a request, and that make clear which requests must be addressed and which are suggestions.
-- A clear decision. If a change does not fit the project, we will say so and explain why, rather than leaving the pull request open indefinitely.
+- A clear decision. If a change does not fit the project, we will say so and explain why.
 
 What we ask of contributors:
 
 - Reply to each review comment, even if only to say it is done. Push changes as new commits during review, so the reviewer can see what changed since their last pass.
 - Leave the conversation open for the reviewer to resolve, unless the change is trivial.
 - If you disagree with a request, say so and explain why. Review is a discussion, not a list of orders.
-- If you cannot continue, say so. A maintainer may finish the work, with credit to you. A pull request with no reply to requested changes for 30 days may be closed, and can be reopened at any time.
+- If you cannot continue, say so. A maintainer may finish the work, with credit to you. A pull request that has waited a long time for a reply to requested changes may be closed, and can be reopened whenever you are ready to continue.
+- If your pull request has not had a response, a single polite reminder in a comment is welcome. Please do not ask for review in other places.
 
 Maintainers merge approved pull requests, usually by squashing them into a single commit on the default branch. The pull request title becomes the commit subject, so write it the same way as a commit subject.
 

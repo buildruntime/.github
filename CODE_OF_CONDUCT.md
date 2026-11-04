@@ -42,18 +42,17 @@ All community leaders are obligated to respect the privacy and security of the r
 
 ### How to report
 
-Buildruntime does not have a dedicated email address for conduct reports. Use one of the following, depending on what you need:
+Buildruntime has not yet set up a private channel, such as a dedicated email address, for conduct reports. Until it has, the following options are available. Issues and comments on GitHub are public, so never post details of an incident, the names of the people involved, or anyone's personal information in them.
 
-* **To have content removed or reviewed by GitHub**, open the **...** menu on the comment, issue or pull request and choose **Report content**. GitHub reviews these reports under the [GitHub Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines). This is also the right route if your concern is about a maintainer.
-* **To raise a concern with the Buildruntime maintainers**, open a new blank issue in [buildruntime/.github](https://github.com/buildruntime/.github/issues/new/choose) titled "Private contact requested". Do not include any details of the incident or the names of the people involved. A maintainer will reply in the issue with a private way to share the details, and then close it.
-* **To stop someone from interacting with you straight away**, you can [block them from your personal account](https://docs.github.com/en/communities/maintaining-your-safety-on-github/blocking-a-user-from-your-personal-account). Blocking does not stop you from also reporting them.
+* **Report the content to GitHub.** Open the **...** menu on the comment, issue or pull request and choose **Report content**. The report goes privately to GitHub, which reviews it under the [GitHub Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines). This is the only private route available today, and the right one if your concern is about a maintainer.
+* **Block the person.** You can [block someone from your personal account](https://docs.github.com/en/communities/maintaining-your-safety-on-github/blocking-a-user-from-your-personal-account) to stop them interacting with you straight away. Blocking does not prevent you from also reporting them.
+* **Ask the maintainers to get in touch.** Open a blank issue in [buildruntime/.github](https://github.com/buildruntime/.github/issues/new/choose) titled "Conduct contact requested", and leave the body empty. Others can see the request, but not what happened or who was involved. A maintainer will reply in the issue to find a way of continuing the conversation that you are comfortable with. Until a private channel exists, that way cannot be guaranteed to be private, so use **Report content** if you need privacy.
 
 If you or someone else is in immediate danger, contact your local emergency services first.
 
-After you report a concern, the maintainers will:
+When the maintainers handle a report, they will:
 
-* acknowledge it within five working days;
-* keep your identity and the details you share confidential, and share them only with your consent or where the law requires it;
+* keep your identity and anything you share with them confidential, and share it only with your consent or where the law requires it;
 * exclude anyone involved in the incident from handling the report;
 * decide on a response using the Enforcement Guidelines below, and tell you the outcome, as far as the privacy of the other people involved allows.
 
