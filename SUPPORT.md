@@ -20,8 +20,15 @@ Many questions are already answered. Check these first:
 | Ask a question about using a project | Open a blank issue in the repository concerned. Start the title with "Question:". |
 | Report behaviour that breaks the Code of Conduct | Follow [How to report](https://github.com/buildruntime/.github/blob/main/CODE_OF_CONDUCT.md#how-to-report) in the Code of Conduct. |
 | Contribute a change | Read the [contributing guide](https://github.com/buildruntime/.github/blob/main/CONTRIBUTING.md). |
+| Contact the maintainers about something that should not be public | Email [manav.it3101@gmail.com](mailto:manav.it3101@gmail.com). |
 
-Issues are the only support channel for Buildruntime projects. There is no chat server, mailing list or support email address.
+## Contact
+
+The Buildruntime contact address is [manav.it3101@gmail.com](mailto:manav.it3101@gmail.com). Use it for matters that cannot be raised in a public issue, such as a conduct concern, or a question that involves private information.
+
+Ask questions, and report bugs and feature requests, in issues, where the answer can also help other people. Requests of that kind sent by email will be redirected to issues. Report security vulnerabilities as described in the [security policy](https://github.com/buildruntime/.github/blob/main/SECURITY.md), which prefers GitHub's private vulnerability reporting to email.
+
+There is no chat server, mailing list or phone support.
 
 ## Asking a good question
 

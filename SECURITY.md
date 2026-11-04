@@ -20,11 +20,9 @@ GitHub's documentation explains [how private vulnerability reporting works](http
 
 ### If there is no Report a vulnerability button
 
-Private vulnerability reporting may not be turned on for every repository. If you cannot find the button, ask for a private security contact instead, and keep the details to yourself:
+Private vulnerability reporting may not be turned on for every repository. If you cannot find the button, email [manav.it3101@gmail.com](mailto:manav.it3101@gmail.com) instead, with a subject such as `Security report: buildruntime/<repository>`. Do not open an issue, not even to ask for a contact.
 
-1. Open an issue in the affected repository, or in [buildruntime/.github](https://github.com/buildruntime/.github/issues/new/choose) if the repository does not accept issues.
-2. Title it "Private security contact requested", and leave the body empty. Do not name the affected component or the type of vulnerability, in the issue or in later comments.
-3. Wait for a maintainer to set up a private way to receive the report, such as turning on private vulnerability reporting for the repository. Send the details only through that private channel.
+Email is not end-to-end encrypted. If you would rather not send the details by email, send only a request for a private reporting channel, without any details of the vulnerability. A maintainer will then turn on private vulnerability reporting for the repository, so you can submit the report there.
 
 ## What to include
 
@@ -39,7 +37,7 @@ A report that can be reproduced can be resolved sooner. Where you can, include:
 
 ## What happens next
 
-Maintainers handle reports as their availability allows. How long each step takes depends on that and on the complexity of the issue, so we do not commit to fixed response times. We will keep you updated through the advisory. For each report, the maintainers will:
+Maintainers handle reports as their availability allows. How long each step takes depends on that and on the complexity of the issue, so we do not commit to fixed response times. We will keep you updated through the advisory, or by email if you reported that way. For each report, the maintainers will:
 
 1. acknowledge it, and ask any questions needed to reproduce it;
 2. confirm whether it is a vulnerability, and tell you how severe we consider it;

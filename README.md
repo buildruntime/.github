@@ -34,6 +34,10 @@ Add a file with the same name to the repository that needs something different, 
 
 A change here applies to every Buildruntime repository that has no file of its own, so it needs the same care as a change to a shared library. Open a pull request that explains the reason for the change, and follow [`CONTRIBUTING.md`](CONTRIBUTING.md). Links in these files are absolute, because GitHub shows them in the context of other repositories, where relative links would not resolve.
 
+## Contact
+
+Email [manav.it3101@gmail.com](mailto:manav.it3101@gmail.com) about anything that should not be raised in a public issue, including conduct concerns. Report security vulnerabilities through GitHub's private vulnerability reporting, as described in [`SECURITY.md`](SECURITY.md). Questions, bug reports and feature requests belong in the issues of the repository concerned. [`SUPPORT.md`](SUPPORT.md) has the details.
+
 ## Licence
 
 The documentation in this repository is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE) (CC BY 4.0). [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, which is published under the same licence.

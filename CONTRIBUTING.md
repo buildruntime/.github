@@ -120,7 +120,7 @@ What we ask of contributors:
 - Leave the conversation open for the reviewer to resolve, unless the change is trivial.
 - If you disagree with a request, say so and explain why. Review is a discussion, not a list of orders.
 - If you cannot continue, say so. A maintainer may finish the work, with credit to you. A pull request that has waited a long time for a reply to requested changes may be closed, and can be reopened whenever you are ready to continue.
-- If your pull request has not had a response, a single polite reminder in a comment is welcome. Please do not ask for review in other places.
+- If your pull request has not had a response, a single polite reminder in a comment is welcome. Please do not ask for review in other places, including by email.
 
 Maintainers merge approved pull requests, usually by squashing them into a single commit on the default branch. The pull request title becomes the commit subject, so write it the same way as a commit subject.
 
